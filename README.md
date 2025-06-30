@@ -39,4 +39,11 @@ This project generates 50,000+ simulated delivery trips across Ireland using Ope
 
 ## 📁 Project Structure
 
-<pre> ``` ## 📁 Project Structure eire-logistics-sim/ ├── data/ # CSO GeoJSONs, delivery point data (locally stored) ├── notebooks/ # Jupyter notebooks for simulation & visualizations ├── scripts/ # (Planned) Python scripts for batch routing & scoring ├── .gitignore ├── README.md └── LICENSE (upcoming) ``` </pre>
+eire-logistics-sim/
+├── data/ # CSO GeoJSONs, delivery point data (locally stored)
+│ ├── smart_delivery_points.csv
+│ └── \*.geojson (ignored in Git)
+├── notebooks/ # Jupyter Notebooks for EDA, simulation, routing
+│ └── urbanAreas.ipynb
+├── .gitignore
+├── README.md
