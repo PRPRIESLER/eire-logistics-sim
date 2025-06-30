@@ -6,7 +6,7 @@ This project generates 50,000+ simulated delivery trips across Ireland using Ope
 
 ---
 
-## 🔥 Features (Phase 1 – In Progress)
+## Features (Phase 1 – In Progress)
 
 - ✅ Delivery trip generation using weighted urban populations
 - ✅ Real geospatial delivery points within Irish urban polygons (CSO data)
@@ -17,21 +17,21 @@ This project generates 50,000+ simulated delivery trips across Ireland using Ope
 
 ## 💡 Coming Soon
 
-- 🔍 Route anomaly detection (outliers in time/distance)
-- ⏰ Peak hour demand modeling
-- 🧠 Delivery optimization using Google OR-Tools
-- 📈 Power BI dashboards / Jupyter reports
+- Route anomaly detection (outliers in time/distance)
+- Peak hour demand modeling
+- Delivery optimization using Google OR-Tools
+- Power BI dashboards / Jupyter reports
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
-- 🗺️ **OpenStreetMap** (`.osm.pbf` file)
-- 📐 **CSO Urban & Small Area Boundaries** (GeoJSON from [CSO.ie](https://www.cso.ie/))
+- **OpenStreetMap** (`.osm.pbf` file)
+- **CSO Urban & Small Area Boundaries** (GeoJSON from [CSO.ie](https://www.cso.ie/))
 
 ---
 
-## 📊 Tech Stack
+## Tech Stack
 
 `Python` · `GeoPandas` · `pandas` · `OSRM` · `Power BI` · `Google OR-Tools` · `SQL` _(planned)_
 
