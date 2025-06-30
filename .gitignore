@@ -1,0 +1,40 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# Large data files
+data/*.geojson
+data/*.json
+data/*.osm
+data/*.pbf
+*.osrm
+*.osrm.*
+*.osm
+*.osm.pbf
+*.tar
+*.zip
+largeData/
+
+# Docker artifacts
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# VSCode and PyCharm files
+.vscode/
+.idea/
